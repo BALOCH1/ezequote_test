@@ -3,11 +3,11 @@
     <link href="{{ asset('css/form-basic.css') }}" rel="stylesheet">
     @endsection
 @section('navbarr')
-    <a class="navbar-brand" href="{{ url('/projects') }}">
-        Projects
+    <a class="navbar-brand" href="{{ url('/create-project') }}">
+        New Project
     </a>
-    <a class="navbar-brand" style="padding-left: 50px" href="{{ url('/create-project') }}">
-        New Projects
+    <a class="navbar-brand" style="padding-left: 50px" href="{{ url('/projects') }}">
+        Projects
     </a>
 @endsection
 @section('content')

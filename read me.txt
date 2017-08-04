@@ -1,0 +1,7 @@
+1) after syncing the project write "composer install" in cmd 
+2) edit the .env.example file and set DB_DATABASE, DB_USERNAME, DB_USERNAME and DB_PASSWORD attributes according to your database.
+3) after that write "php artisan migrate --seed"
+4) go to .env file and set APP_KEY = base64:ma/6E1v6WiZjzEiQITSXCmF4NK6jST3zCwJNA6oB67E=
+4) write "php artisan serve" in cmd to start the local server.
+5) start creating projects!!
+6) you can register as a new user or you can use these credentials to login email: "mick@ezequote.com.au" and password : "password". 
